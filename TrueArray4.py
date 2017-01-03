@@ -62,8 +62,8 @@ for i in layer:
                 Bstrok2[s] = -1*statementB[s]
                 Jstrok1[s] = -1*statementJ[s]
                 Jstrok2[s] =statementJ[s]
-                Sstrok1[s] =statementS[s]
-                Sstrok2[s] = -1*statementS[s]
+                Sstrok1[s] =-1*statementS[s]
+                Sstrok2[s] =statementS[s]
             #Если первый элемент столбца матрицы заявлений равен нулю, то два другие не равны нулю
             else:
                 Jstrok1[s] = -1*statementJ[s]
